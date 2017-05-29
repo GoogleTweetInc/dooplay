@@ -14,63 +14,7 @@ if(!isset($_SESSION['email'])){
 	<head>
 		<title>Audio Player</title>
 		<link rel="stylesheet" href="css/main.css" type="text/css">
-		<style>
-		
-			
-			
-			.logged a{
-				width: auto;
-				float: right;
-				color: #fff;
-				text-decoration: none;
-				background-color: firebrick;
-				padding: 4px 8px 4px 8px;
-				font-size: 16px;
-				border-radius: 2px;
 
-			}
-			
-			#user{
-				width: auto;
-				float: left;
-			}
-			
-			.clearfix{
-				clear: both;
-			}
-			
-			.upperbar{
-				padding: 15px;
-			}
-			
-			.playlists{
-				width: 400px;
-				margin: 0 auto;
-				text-align: center;
-				padding-top: 60px;
-			}
-			
-			.playlist-name, .submit-playlist{
-				margin-top: 15px;
-			}
-			
-			.playlist-name input{
-				padding: 10px;
-			}
-			
-			.playlist-name input[type]{
-				font-size: 16px;
-			}
-			
-			.submit-playlist input[value]{
-				font-weight: bold;
-				font-size: 18px;
-				padding: 15px 30px 15px 30px;
-			}
-			
-			
-		
-		</style>
 	</head>
 	<body>
 	
