@@ -445,5 +445,165 @@ clear: both;
 				margin-left: 40px;
 				margin-top: 22px;
 			}
+
+
+			#container{
+				height: 600px;
+			}
+			.logged a{
+				width: auto;
+				float: right;
+				color: #fff;
+				text-decoration: none;
+				background-color: firebrick;
+				padding: 4px 8px 4px 8px;
+				font-size: 16px;
+				border-radius: 2px;
+
+			}
+			
+			#user{
+				width: auto;
+				float: left;
+			}
+			
+			.clearfix{
+				clear: both;
+			}
+			
+			.upperbar{
+				padding: 15px;
+			}
+			
+			.playlists{
+				width: 400px;
+				margin: 0 auto;
+				text-align: center;
+				padding-top: 60px;
+			}
+			
+			#createLink{
+				color: #fff;
+				text-decoration: none;
+				background: cadetblue;
+				padding: 12px 30px 12px 30px;
+				font-size: 16px;
+			}
+			
+			#addLink{
+				color: white;
+				text-decoration: none;
+				background-color: cornflowerblue;
+				padding: 6px 30px 6px 30px;
+				font-size: 14px;
+			}
+			
+			#container h2{
+				border: 1px solid #fff;
+				padding: 10px;
+				font-size: 13px;
+				margin-bottom: 20px;
+				border-radius: 6px;
+			text-align: center;
+			}
+			
+			#editLink, #delLink{
+				color: antiquewhite;
+				text-decoration: none;
+				margin-left: 10px;
+				
+			}
+			
+			.pls{
+				padding: 10px;
+				background-color: blanchedalmond;
+				margin: 8px;
+			}
+			
+			.pls #plLink{
+				color: black;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 16px;
+				font-family: tahoma;
+			}
+			
+			.pls #delLink{
+				background-color: crimson;
+    			padding: 5px;
+				font-size: 14px;
+			}
+			
+			.pls #editLink{
+				padding: 5px;
+    			background-color: chocolate;
+				font-size: 14px;
+			}
+			
+			.actions{
+				margin-top: 16px;
+			}
+			
+			.actions h3{
+				margin-top: 40px;
+				font-weight: normal;
+			}
+			
+			.delete, .move, .changename, .delete-pl, .edit-pl{
+				padding: 7px 0px 7px 0px;
+				transition: background 0.5s;
+			}
+			
+			.delete:hover, .move:hover, .delete-pl:hover, .edit-pl:hover, .changename:hover{
+				background: black;
+			}
+			
+			.delete a, .changename a, .move #slideTrigger, .delete-pl a, .edit-pl a{
+				color: white;
+				text-decoration: none;
+				font-size: 24px;
+				font-family: tahoma;
+    			letter-spacing: 2px;
+				margin-top: 0px;
+			}
+			
+			.changename form input{
+				padding: 10px;
+			}
+			
+			.changename form input[type='submit']{
+				background-color:black;
+			}
+			
+			.changename form input[value='Change']{
+				color: aliceblue;
+			}
+			
+			.move #slideTrigger:hover{
+				cursor: pointer;
+			}
+			
+			.move-options{
+				margin-top: 10px;
+			}
+			
+			.move-options p{
+				margin-top: 8px;
+			}
+			
+			.move-options form input[type='submit']{
+			    width: 60px;
+				padding: 8px;
+				background-color: darkkhaki;
+				font-size: 16px;
+			}
+			
+			
+			.move-options form select{
+				width: 120px;
+    			padding: 8px;
+			}
+			
+			
 			
 			
