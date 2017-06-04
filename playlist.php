@@ -161,13 +161,7 @@ if($db_author != $sess_author){
 				});
 			});
 				
-			/*$('#audio-image img').mouseenter(function(){
-				$(this).animate({width: "550px"}, 150 );
-			});
 				
-			$('#audio-image img').mouseleave(function() {
-				$(this).animate({width: "380px"}, 150 )
-			})*/	
 					
 			</script>
 			<div id="title"><h3><?php echo $db_playlist_title; ?></h3></div>
@@ -196,18 +190,7 @@ if($db_author != $sess_author){
 				<div id="clearfix"></div>
 				
 				<ul id="playlist">
-					<!-- <li song="Linkin Park - Papercut.mp3" cover="cover1.jpg" artist="Linkin Park">Papercut.mp3</li>
-					<li song="Linkin Park - A place for my head.mp3" cover="cover2.png" artist="Linkin Park">A place for my head.mp3</li>
-					<li song="Linkin Park - By myself.mp3" cover="cover1.jpg" artist="Linkin Park">By myself.mp3</li>
-					<li song="Linkin Park - Crawling.mp3" cover="cover1.jpg" artist="Linkin Park">Crawling.mp3</li>
-					<li song="Linkin Park - Cure for the itch.mp3" cover="cover1.jpg" artist="Linkin Park">Cure for the itch.mp3</li>
-					<li song="Linkin Park - Forgotten.mp3" cover="cover1.jpg" artist="Linkin Park">Forgotten.mp3</li>
-					<li song="Linkin Park - In the end.mp3" cover="cover1.jpg" artist="Linkin Park">In the end.mp3</li>
-					<li song="Linkin Park - One step closer.mp3" cover="cover1.jpg" artist="Linkin Park">One step closer.mp3</li>
-					<li song="Linkin Park - Points of authority.mp3" cover="cover1.jpg" artist="Linkin Park">Points of authority.mp3</li>
-					<li song="Linkin Park - Pushing me away.mp3" cover="cover1.jpg" artist="Linkin Park">Pushing me away.mp3</li>
-					<li song="Linkin Park - Runaway.mp3" cover="cover1.jpg" artist="Linkin Park">Runaway.mp3</li>
-					<li song="Linkin Park - With you.mp3" cover="cover1.jpg" artist="Linkin Park">With you.mp3</li> -->
+					
 
 
 					<?php 
