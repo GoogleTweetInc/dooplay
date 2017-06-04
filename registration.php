@@ -67,48 +67,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	<head>
 		<title>Audio Player</title>
 		<link rel="stylesheet" href="css/main.css" type="text/css">
-		<style>
-		
-			.register{
-				width: 195px;
-				margin: 0 auto;
-				padding-top: 75px;
-			}
-			
-			.register h1{
-				border: 1px solid #fff;
-				padding: 10px;
-				font-size: 13px;
-				margin-bottom: 20px;
-			}
-			
-			.register form h2{
-				margin-left: 55px;
-			}
-			
-			.register form input{
-				padding-top: 15px;
-				padding-bottom: 15px;
-				width: 195px;
-			}
-			
-			.register form input[type]{
-				font-size: 16px;
-			}
-			
-			.register-email, .register-password, .confirm-register-password, .register-submit, .register-username{
-				margin-top: 15px;
-			}
-			
-			.register-submit input[value]{
-				font-weight: bold;
-				font-size: 18px;
-			}
-			
-			
-			
-		
-		</style>
+		<link rel="stylesheet" href="css/register.css">
 	</head>
 	<body>
 		<div id="container" style="width: 500px;height: 600px;">
