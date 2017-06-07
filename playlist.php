@@ -147,23 +147,7 @@ if($db_author != $sess_author){
 				?>
 				
 			</div>
-			<script>
-			$('#audio-image img').click(function() {
-				$(this).fadeOut('medium', function() {
-					$('#audio-image').append(
-						"<form action='' method='post' enctype='multipart/form-data'>" +
-							"<input type='file' name='new_cover' id='newCover'>" +
-							"<br>" +
-							"<input type='submit' name='apply_new_cover' id='submitCover' value='change'>" +
-						"</form>"
-					).hide().fadeIn('slow');
-					//$('#submitCover').hide();
-				});
-			});
-				
-				
-					
-			</script>
+			
 			<div id="title"><h3><?php echo $db_playlist_title; ?></h3></div>
 			<div id="audio-player">
 				<div id="audio-info">
@@ -231,29 +215,6 @@ if($db_author != $sess_author){
 				<div id="add-track">
 					
 				</div>
-				
-				
-				
-				<script>
-					$(document).ready(function(){
-						//$('#add-track').hide();
-						
-						var addTrackForm = "<form action='' method='post' enctype='multipart/form-data'>" +
-												"<input type='file' name='track'>" +
-												"<br>" +
-												"<input type='submit' name='addtrack' value='Add' id='submitTrack'>" +
-											"</form>";
-						
-						$('#showfilebtn').click(function(){
-							$(this).fadeOut('fast', function() {
-								$('#add-track').append(addTrackForm).hide().fadeIn('fast');
-							});
-							
-							
-						});
-						
-					});
-				</script>
 				<a href="dooplay.php" class="back-to-link">Playlists</a>
 				
 			</div>
