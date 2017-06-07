@@ -41,4 +41,34 @@ $(document).ready(function() {
 				$('#movetr').fadeIn('slow');
 			});
 	
+			$('#audio-image img').click(function() {
+				$(this).fadeOut('medium', function() {
+					$('#audio-image').append(
+						"<form action='' method='post' enctype='multipart/form-data'>" +
+							"<input type='file' name='new_cover' id='newCover'>" +
+							"<br>" +
+							"<input type='submit' name='apply_new_cover' id='submitCover' value='change'>" +
+						"</form>"
+					).hide().fadeIn('slow');
+					//$('#submitCover').hide();
+				});
+			});
+
+						//$('#add-track').hide();
+						
+						var addTrackForm = "<form action='' method='post' enctype='multipart/form-data'>" +
+												"<input type='file' name='track'>" +
+												"<br>" +
+												"<input type='submit' name='addtrack' value='Add' id='submitTrack'>" +
+											"</form>";
+						
+						$('#showfilebtn').click(function(){
+							$(this).fadeOut('fast', function() {
+								$('#add-track').append(addTrackForm).hide().fadeIn('fast');
+							});
+							
+							
+						});
+						
+	
 });
